@@ -1,0 +1,294 @@
+.title{
+  position: relative;right: -80px;top:15px;
+  display: flex;
+  gap: 20px;
+  font-size: 1.5em;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.feature{
+  font-size: 1.2em;
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+  color: black;
+  position: relative;left:700px;top:-45px
+}
+
+.each{
+
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.each:hover{
+  font-size: 1.4em;
+}
+
+#reg{
+  background-color: rgb(127, 233, 127);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;top:-5px
+}
+#reg:hover{
+  background-color: rgb(173, 242, 173) ;
+}
+
+.fa-solid.fa-play{
+  color: green;
+}
+
+.img1{
+  height:auto;
+  width: 400px;
+
+}
+
+.Home{
+  position: relative;right:-150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  align-items: center;
+  background-color: #f8f9fa;
+  height: auto;
+  width: fit-content;
+  gap:10px;
+}
+
+.Home-txt{
+  flex: 1;
+  padding-right: 2rem;
+  padding: 15px;
+  
+}
+
+.Home-txt h1{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+
+}
+.pop{
+  position: relative;right: -80px;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;top:10px;
+}
+.Hotel-txt{
+  display: flex;
+  gap:500px;
+  top:20px;
+  position: relative;right: -50px;
+}
+.btn{
+  color: rgb(61, 209, 61);
+  background-color: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 20px;
+}
+
+.btn:hover{
+  background-color: #ececed;
+  font-size: large;
+  cursor: pointer;
+}
+.Hotel{
+  gap: 20px;
+  width: fit-content;
+}
+.Hotel-img{
+  position: relative;top:60px;right: -100px;
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+
+.rating{
+  display: flex;
+  gap:10px;
+}
+.fa-solid.fa-star{
+  position: relative;top:15px;
+  color: orangered;
+}
+
+.card{
+  background-color: #f8f9fa;
+}
+.hi{
+  height: 300px;
+  width: 300px;
+}
+.fa-regular.fa-star{
+  position: relative;top:15px;
+
+  color: black;
+}
+@media (max-width: 1024px) {
+  .Home {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .Home-txt {
+      padding-right: 0;
+      margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Home-txt h1 {
+      font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Home-txt h1 {
+      font-size: 1.75rem;
+  }
+}
+
+.facilities {
+  position: relative;top:50px;
+  padding: 2rem;
+  background-color: #ffffff;
+  text-align: center;
+  display: flex;
+  gap:20px;
+  margin-top: 50px;
+}
+
+.facilities h2 {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+}
+
+.facilities-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+.facility-item h4{
+  color: black;
+}
+.facility-item {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: green;
+}
+.btm{
+  background-color: rgb(112, 218, 112);
+  color: white;
+  border: 1px solid rgb(112, 218, 112);
+  border-radius: 10px;
+  font-size: large;
+  padding: 10px;
+}
+
+.btm:hover{
+  background-color: rgb(146, 240, 146);
+  font-size: larger;
+  cursor: pointer;
+
+
+}
+@media (max-width: 1024px) {
+  .facilities-grid {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .facilities-grid {
+      grid-template-columns: 1fr;
+  }
+
+  .facility-item {
+      font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .facilities h2 {
+      font-size: 1.5rem;
+  }
+
+  .facility-item {
+      padding: 0.75rem;
+      font-size: 0.75rem;
+  }
+}
+
+.map{
+  position: relative;right:-400px;top:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+footer {
+  padding: 2rem;
+  position: relative;top: 50px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.footer-links div {
+  flex: 1;
+  max-width: 200px;
+}
+
+.footer-links h3 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+  color: gray;
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+@media (max-width: 768px) {
+  .footer-links {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-links div {
+      max-width: 100%;
+      margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-links h3 {
+      font-size: 1rem;
+  }
+
+  .footer-links ul li a {
+      font-size: 0.75rem;
+  }
+}
