@@ -5,6 +5,10 @@
   font-size: 1.5em;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.app{
+  width: 800px;
+}
 .feature{
   font-size: 1.2em;
   display: flex;
@@ -152,7 +156,7 @@
 }
 
 .facilities {
-  position: relative;top:50px;right:-100px
+  position: relative;top:50px;right:-300px;
   padding: 2rem;
   background-color: #ffffff;
   text-align: center;
@@ -235,7 +239,7 @@
 
 footer {
   padding: 2rem;
-  position: relative;top: 50px;
+  position: relative;top: 50px;right:-350px;
 }
 
 .footer-links {
