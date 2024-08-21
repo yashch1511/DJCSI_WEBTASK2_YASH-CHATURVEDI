@@ -6,7 +6,7 @@ import Map from "./maps";
 import Footer from "./Footer";
 function App() {
   return (
-    <div >
+    <div className="app" >
     <Navbar />
     <Home />
     <Hotel />
